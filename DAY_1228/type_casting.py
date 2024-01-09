@@ -11,7 +11,7 @@
 # int( 10진수 문자 '0~9' )
 ## str >> int
 print(type(int('200')))
-print(type(int('200Day'))) # 틀린 문장: 정수형안에 문자가 들어갈 수 없음
+#print(type(int('200Day'))) # 틀린 문장: 정수형안에 문자가 들어갈 수 없음
 print(type(int('200.4')))
 ## float >> int: 소수점 이하 데이터 손실
 print(type(int(200.4)), int(200.7))
